@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--kinectic_black);
+  .container {
+    background-color: var(--frame_color);
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 72px 102px;
+    .head-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 18.73px;
+      margin-bottom: 32px;
+      .logo-wrapper {
+        display: flex;
+        gap:10px;
+      }
+      .title-text {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--title-text-color);
+        margin: 0px;
+      }
+    }
+    .login-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: var(--accent-text);
+      margin-top: 20px;
+      margin-bottom: 30px;
+      .link-text {
+        color: var(--link_color);
+      }
+    }
+  }
+}

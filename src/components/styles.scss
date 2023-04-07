@@ -1,0 +1,64 @@
+.name-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 288px;
+  input {
+    width: 100% !important;
+  }
+  .city-container {
+    display: flex;
+    gap: 8px;
+  }
+  .text-field-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .MuiInputBase-input {
+      width: 100% !important;
+      border-radius: 4px;
+      position: relative;
+      background-color: var(--white);
+      border: 1px solid var(--black);
+      font-size: 16px;
+      width: auto;
+      padding: 10px 12px;
+    }
+    .MuiFormLabel-root {
+      position: relative;
+      color: var(--kinectic_black);
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -0.02em;
+    }
+    .MuiInputBase-root {
+      margin-top: 0px;
+    }
+    .err-class{
+        color: var(--err-color);
+    }
+  }
+  .btn-field-wrapper {
+    .MuiButton-root {
+      background-color: var(--kinectic_black);
+      color: var(--kinect-blue);
+    }
+  }
+  .email-btn-field-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    .MuiButton-root {
+      width: 50%;
+      background-color: var(--kinectic_black);
+      color: var(--kinect-blue);
+    }
+    .back-btn {
+      background-color: var(--white);
+    }
+  }
+}
